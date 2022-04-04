@@ -1,5 +1,6 @@
-const apiKey = '4q6yq0q24Sy7qlAMAuL0nqpmDg5_KQ3DcGkSMd8LE2JkrUP3O09PDXYDbliJ49ElByif2PL9szjGnTs5QMcB34i5my_yUJHCEoPuckKPOnkFIn1_gahEC-8JFmdIYnYx';
-
+const apiKey = process.env.REACT_APP_YELP_API_KEY;
+// eslint-disable-next-line no-unused-vars
+//let surge_url = 'furtive-run.surge.sh';
 
 const Yelp = {
     search(term, location, sortBy) {
